@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="imgs/favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+
+    <title>API-GIT</title>
+</head>
+<body>
+    <div id="formulario">
+        <form onsubmit="buscar.buscaUsuarios(event)">
+            <input type="text" data-usuario-github>
+            <input type="submit">
+        </form>
+    </div>
+
+    <div class="container">
+        <div id="links">
+            <p class="title-repos"></p>
+        </div>
+    </div>
+
+    
+    <script src="js/Model/model.js"></script>
+    <script src="js/View/view.js"></script>
+    <script src="js/Controller/controller.js"></script>
+
+    <script>
+        let buscar = new GitController(); 
+    </script>
+</body>
+</html>

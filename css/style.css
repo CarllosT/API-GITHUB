@@ -1,0 +1,61 @@
+body{
+    background-image: url(https://miro.medium.com/max/796/1*WY7ELhXIVxbGlUwmhA1PSw.jpeg);
+}
+#formulario{
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+#formulario input[type="text"]{
+    width: 300px;
+    padding: 5px;
+    
+}
+
+#formulario input[type="submit"]{
+    width: 100px;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 0%;
+}
+
+
+.divLinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    height: 30px;
+}
+
+.divLinks > a{
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    
+}
+
+
+.divLinks > p{
+    padding: 5px;
+}
+
+.divLinks > p:hover{
+    cursor: pointer;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.title-repos{
+    font-size: 20px;
+    margin: 30px 0 20px 0;
+    padding: 5px;
+    color: aqua;
+}
+
